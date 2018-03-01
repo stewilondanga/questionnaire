@@ -1,3 +1,33 @@
+## ABOUT REPOSITORY
+## CONCEPT
+- This is a repository that answers questions about Java and Android using YouTube videos embedded in an Iframe on the HTML   code
+- The questions are found in this readme after this introduction
+- When loaded from the link at the top of the repository the site gives you quite some information as listed below
+    1. It tells you the project title
+    2. It shows an embedded iframe which has video numbers from the playlist which you can choose from. The iframe lists the 
+       YouTube video id of the video playing and gives you the button options of play, pause and stop.
+    3. There are two bars, one for showing the duration the video has played and the other for adjusting the volume
+    4. The URL of the video playing is displayed
+    5. The output quality of the video playing is stated as well as the available quality outputs.
+    6. The state in which the video is at the moment is also shown, which could either be playing, paused or stopped
+    7. How much the video has loaded from YouTube is stated in percentage form. One hundred percent means the whole video 
+       has loaded into the playlist
+    8. The length duration of the video from start to stop is stated in minutes and seconds and equated to what percentage 
+       of the total minutes the whole playlist is taking
+    9. The output sound volume is displayed in percentage
+    10. There is a space provided for listing the current errors you must be facing. This is done by the YouTube API as it 
+        tries to access its resources which are videos from YouTube
+    11. There is a sample code for embedding the video that would be currently playing just incase the specific video is 
+        needed by other developers
+    12. Finally there are listed references related to the development of the webpage and this repository
+
+## TECHNOLOGIES USED
+- HTML
+- Bootstrap css (https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap/3.3.7/js/bootstrap.min.js)
+- Jquery 3.2.1 (https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js)
+- YouTube API (https://developers.google.com/youtube/iframe_api_reference ;   
+               https://developers.google.com/youtube/player_parameters)
+
 ## Mock Interview Warm Up
 
 ## Tell me about yourself
@@ -201,280 +231,147 @@ Does the function accept any kind of argument? Put any arguments in the function
 Does the function return a value? Put a return statement at the end of the function.
 The purpose of all this setup is to give ourselves a familiar work space. It also gets some information on the board, and can get you thinking.
 Are you stuck, or do you need to test your algorithm? One approach is to draw a box on the whiteboard and list your variables with their initial values. This box represents machine memory during the process. Next, pass some test values into your function and talk through the behavior with the interviewer while changing the values within the box. This live testing is another way to get you thinking and unstuck.
-
-## Open-Ended Technical Questions
+Open-Ended Technical Questions
 Technical questions that may not require you to code at all are often open-ended discussion questions, which are designed to give you a chance to showcase your knowledge. It is important to take advantage of these opportunities, as you have the freedom to highlight your strongest area of knowledge.
+Here are some sample interview questions:
+What is the difference between POST request and a GET request?
+What is Git and why would you use it?
+What happens when a user logs into a website?
+What is a class?
+What is an object?
+What is unit testing?
+What happens when a user types in a URL?
+What is a foreign key?
+What is REST?
+Show me some code you wrote that you're especially proud of.
+Talk about a time that you solved a difficult coding problem.
+What is an array?
+Explain MVC.
+What is a join table in SQL?
+What is floating in CSS?
+What are media queries and how do you use them?
+You've been working on a site for a couple months here at our company. You come in one day and the site is down. What do you do?
+How is testing with objects different from testing in an application where we don't create our own custom objects?
+What does "Encapsulation" mean, in reference to coding?
+What about "visibility"?
+Why is it best practice to declare attributes of a custom class private?
+Why might we opt not to include some files in our GitHub repositories by ignoring them?
+When would we use char - what is its corresponding wrapper class?
+Generally speaking, when would you use a primitive? When would you instead use its corresponding wrapper class? Why?
+What is the Velocity Template Engine? What is it responsible for, and how do we integrate it into our Spark applications?
+What is a HashMap? How is data structured within one? How do we place data in? How do we pull data out?
+What does a layout.vtl file do? How does it do it?
+In Spark, we need to include an action attribute in our HTML tags, like this:
+Why do we do this?
+What other area of the application does the action attribute we provide need to match up with?
+Why do we have to give our HTML buttons the type attribute "submit"?
+What is a session?
+What is the difference between a GET and POST request?
+When should you use a POST request?
+When should you use a GET request?
+How does Spark know where to send information from a form?
+What is a static method? What about a static variable?
+How do we add an object to another object? What elements of the child object's class does the parent object have access to when we do this?
+What is RESTful routing? What are its benefits?
+How does Spark create unique URLs for each individual detail page using only one route?
+Discuss the difference between POST and GET. When do we use a POST route, when a GET?
+Walk through each of the following types of HTTP requests, describe what they do, and when you would use each:
+PATCH
+POST
+GET
+DELETE
+Walk through each of the following types of standard database relationships, describe what they do, and when you would use each:
+One-to-One
+One-to-Many
+Many-to-Many
+In a one-to-many relationship, why does the "many" contain the ID value of the "one" it belongs to? Why not the other way around? What do you think?
+What is typecasting? When does it come in handy?
+How often should you typecast? Why?
+When is it appropriate to @Override built-in methods? What functionality does this offer?
+Why does the == operator not always recognize that two things are equal in Java? How do we work around this?
+Why don't the member variables of classes contain an m prefix when they're saved to databases?
+How can we locate a specific object or database entry in an SQL database? What does this SQL query look like? Construct one for your partner using a whiteboard, scratch paper, or directly in an Atom text editor.
+Why is it important that the ID ID value of objects in our application match the ID of that information's entry in our database?
+How can we ensure the ID value of objects in our application match the ID of that information's entry in our database?
+In a one-to-many relationship, how do we associate a new object with its parent object in the database?
+When would we use a post() route in Spark as opposed to a get() route?
+Why don't we use delete() or put() routes in Spark? What is limiting us?
+What do user stories offer? Why would a development team use them during the course of creating a new software product?
+What information does a user story contain? What general format does it take?
+Talk about a project you created recently that you're proud of. What skills does it demonstrate? What challenges did you face during the course of development?
+What are you looking forward to learning most?
+Describe a challenge you faced in a group or partner project, and explain what you did to resolve this issue.
+What is the difference between an abstract class and an interface? Describe why you would use one over the other, and walk your partner through an example use case.
+What is polymorphism? How does it apply to programming?
+Describe when it would be beneficial to program one class to inherit from another class?
+What is the difference between inheriting an abstract class, and inheriting another complete class?
+Describe when a class should be abstract and when it should not be abstract.
+What is single table inheritance?
+Is single table inheritance ever required?
+Describe when we would use single table inheritance.
+Pretend we have two classes: Shepherd and Terrier. They each inherit 4 attributes from an abstract Dog class, and contain 2 attributes unique to their own class. Are these two classes good candidates for single table inheritance? Why or why not?
+What obligation does a developer take on by implementing an interface?
+Describe a challenge you faced coding during the last week. Walk your partner through the process by which you resolved it.
+What should we use constants for? What shouldn't we use constants for?
+How does XML differ from HTML? How are they alike?
+What's the difference between sp and dp? How do you decide which to use?
+When would you use a toast?
+How are intents used in an Android application?
+What is the difference between the five different log types? (v, d, i, w, e)
+What is a breakpoint?
+What are the two general categories testing in Android may be broken down into? What are the differences between them? Similarities?
+What are the differences between Robolectric and Espresso? When do we use one versus the other?
+Describe how the ArrayAdapter works to generate items in the ListView.
+Why is ButterKnife worth implementing in your projects? What does it do?
+What is an annotation in Java?
+In terms of testing, what is a 'shadow'? When and why are they used?
+How do we interact with data in an adapter?
+What is the difference between the ‘system back button’ and the ‘up’ button?
+What is a hierarchical parent? Where do we denote an activity's parent? What does creating this relationship allow us to do?
+What is the Android Manifest? What is, placed in here?
+What is the 'main/ui thread' and why shouldn't we run long tasks such as a request on this thread?
+Why is a RecyclerView preferable to a ListView?
+What are the necessary components of an OkHttp request to an API? What series of events occur in a successful request?
+What is OAuth protocol and why would we use it?
+What is a fragment and why would we use one?
+What is the difference between a fragment and an activity?
+What is a Parcelable? What benefits does it offer? What additional setup does it require?
+What does Parcels.wrap(): do, and when is it used?
+What about Parcels.unwrap();? How do the two work in conjunction?
+What is the difference between implicit and explicit intents? Provide an example of each.
+What arguments do we need to provide when creating an explicit intent?
+What about when we create an implicit intent?
+Why do we need to resize images? What errors could occur if we don't?
+What do the terms threading and multi-threading mean in an Android application?
+What thread can we alter the user interface from?
+How is OAuth protocol different from a simple API request that returns a JSON response? What extra steps take place?
+What is the benefit of using OAuth protocol? When might you use it?
+What comes first in the Android Activity lifecycle: onCreate() or onStart()? What is each used for?
+What are the necessary components of an OkHttp request to an API? What series of events occur in a successful request?
+Why is a RecyclerView preferable to a ListView?
+What is a fragment? What benefit does it offer?
+How does Android know which fragments to insert where?
+What does Parcels.wrap(); do, and when is it used?
+What about Parcels.unwrap();? How do the two work in conjunction?
+What is a Parcelable? What benefits does it offer? What additional setup does it require?
+What is the difference between implicit and explicit intents? Provide an example of each.
+What arguments do we need to provide when creating an explicit intent?
+What about when we create an implicit intent?
+Why do we need to resize images? What errors could occur if we don't?
+What is serializing data? What does it do? Why would we serialize data?
+What is the difference between an activity and a fragment? How do you determine which to use?
+What is a node? What does it represent?
+How do we listen to a node?
+How do we stop listening to a node? Why would we want to do this?
+What is a data snapshot? What process provides a new data snapshot to an application?
+With your partner, walk through the basic steps that occur in order to save a new piece of data to a Firebase database in an Android application.
+What is an intent filter? What does it do or prevent you from doing?
+How does a SearchView work? How is it different from other views?
+What other Firebase methods can you name? What do they do, and when would you use them?
+What is an interface? What functionality do they offer?
+How does an interface differ from a class?
+How do we implement interfaces?
+How are gestures enabled or disabled?
+How do we use our user interface to indicate to a user what gestures are available?
+How is a touchscreen gesture processed? Which portion of the application is responsible? What other components are involved?
 
-## HERE ARE SOME SAMPLE INTERVIEW QUESTIONS:
-## What is the difference between POST request and a GET request?
-
-## What is Git and why would you use it?
-
-## What happens when a user logs into a website?
-
-## What is a class?
-
-## What is an object?
-
-## What is unit testing?
-
-## What happens when a user types in a URL?
-
-## What is a foreign key?
-
-## What is REST?
-
-## Show me some code you wrote that you're especially proud of.
-
-## Talk about a time that you solved a difficult coding problem.
-
-## What is an array?
-
-## Explain MVC.
-
-## What is a join table in SQL?
-
-## What is floating in CSS?
-
-## What are media queries and how do you use them?
-
-## You've been working on a site for a couple months here at our company. You come in one day and the site is down. What do you do?
-
-## How is testing with objects different from testing in an application where we don't create our own custom objects?
-
-## What does "Encapsulation" mean, in reference to coding?
-
-## What about "visibility"?
-
-## Why is it best practice to declare attributes of a custom class private?
-
-## Why might we opt not to include some files in our GitHub repositories by ignoring them?
-
-## When would we use char - what is its corresponding wrapper class?
-
-## Generally speaking, when would you use a primitive? When would you instead use its corresponding wrapper class? Why?
-
-## What is the Velocity Template Engine? What is it responsible for, and how do we integrate it into our Spark applications?
-
-## What is a HashMap? How is data structured within one? How do we place data in? How do we pull data out?
-
-## What does a layout.vtl file do? How does it do it?
-
-## In Spark, we need to include an action attribute in our HTML tags, like this:
-
-## Why do we do this?
-
-## What other area of the application does the action attribute we provide need to match up with?
-
-## Why do we have to give our HTML buttons the type attribute "submit"?
-
-## What is a session?
-
-## What is the difference between a GET and POST request?
-
-## When should you use a POST request?
-
-## When should you use a GET request?
-
-## How does Spark know where to send information from a form?
-
-## What is a static method? What about a static variable?
-
-## How do we add an object to another object? What elements of the child object's class does the parent object have access to when we do this?
-
-## What is RESTful routing? What are its benefits?
-
-## How does Spark create unique URLs for each individual detail page using only one route?
-
-## Discuss the difference between POST and GET. When do we use a POST route, when a GET?
-
-## Walk through each of the following types of HTTP requests, describe what they do, and when you would use each:
-- PATCH
-- POST
-- GET
-- DELETE
-
-## Walk through each of the following types of standard database relationships, describe what they do, and when you would use each:
-- One-to-One
-- One-to-Many
-- Many-to-Many
-
-## In a one-to-many relationship, why does the "many" contain the ID value of the "one" it belongs to? Why not the other way around? What do you think?
-
-## What is typecasting? When does it come in handy?
-
-## How often should you typecast? Why?
-
-## When is it appropriate to @Override built-in methods? What functionality does this offer?
-
-## Why does the == operator not always recognize that two things are equal in Java? How do we work around this?
-
-## Why don't the member variables of classes contain an m prefix when they're saved to databases?
-
-## How can we locate a specific object or database entry in an SQL database? What does this SQL query look like? Construct one for your partner using a whiteboard, scratch paper, or directly in an Atom text editor.
-
-## Why is it important that the ID ID value of objects in our application match the ID of that information's entry in our database?
-
-## How can we ensure the ID value of objects in our application match the ID of that information's entry in our database?
-
-## In a one-to-many relationship, how do we associate a new object with its parent object in the database?
-
-## When would we use a post() route in Spark as opposed to a get() route?
-
-## Why don't we use delete() or put() routes in Spark? What is limiting us?
-
-## What do user stories offer? Why would a development team use them during the course of creating a new software product?
-
-## What information does a user story contain? What general format does it take?
-
-## Talk about a project you created recently that you're proud of. What skills does it demonstrate? What challenges did you face during the course of development?
-
-## What are you looking forward to learning most?
-
-## Describe a challenge you faced in a group or partner project, and explain what you did to resolve this issue.
-
-## What is the difference between an abstract class and an interface? Describe why you would use one over the other, and walk your partner through an example use case.
-
-## What is polymorphism? How does it apply to programming?
-
-## Describe when it would be beneficial to program one class to inherit from another class?
-
-## What is the difference between inheriting an abstract class, and inheriting another complete class?
-
-## Describe when a class should be abstract and when it should not be abstract.
-
-## What is single table inheritance?
-
-## Is single table inheritance ever required?
-
-## Describe when we would use single table inheritance.
-
-## Pretend we have two classes: Shepherd and Terrier. They each inherit 4 attributes from an abstract Dog class, and contain 2 attributes unique to their own class. Are these two classes good candidates for single table inheritance? Why or why not?
-
-## What obligation does a developer take on by implementing an interface?
-
-## Describe a challenge you faced coding during the last week. Walk your partner through the process by which you resolved it.
-
-## What should we use constants for? What shouldn't we use constants for?
-
-## How does XML differ from HTML? How are they alike?
-
-## What's the difference between sp and dp? How do you decide which to use?
-
-## When would you use a toast?
-
-## How are intents used in an Android application?
-
-## What is the difference between the five different log types? (v, d, i, w, e)
-
-## What is a breakpoint?
-
-## What are the two general categories testing in Android may be broken down into? What are the differences between them? Similarities?
-
-## What are the differences between Robolectric and Espresso? When do we use one versus the other?
-
-## Describe how the ArrayAdapter works to generate items in the ListView.
-
-## Why is ButterKnife worth implementing in your projects? What does it do?
-
-## What is an annotation in Java?
-
-## In terms of testing, what is a 'shadow'? When and why are they used?
-
-## How do we interact with data in an adapter?
-
-## What is the difference between the ‘system back button’ and the ‘up’ button?
-
-## What is a hierarchical parent? Where do we denote an activity's parent? What does creating this relationship allow us to do?
-
-## What is the Android Manifest? What is, placed in here?
-
-## What is the 'main/ui thread' and why shouldn't we run long tasks such as a request on this thread?
-
-## Why is a RecyclerView preferable to a ListView?
-
-## What are the necessary components of an OkHttp request to an API? What series of events occur in a successful request?
-
-## What is OAuth protocol and why would we use it?
-
-## What is a fragment and why would we use one?
-
-## What is the difference between a fragment and an activity?
-
-## What is a Parcelable? What benefits does it offer? What additional setup does it require?
-
-## What does Parcels.wrap(): do, and when is it used?
-
-## What about Parcels.unwrap();? How do the two work in conjunction?
-
-## What is the difference between implicit and explicit intents? Provide an example of each.
-
-## What arguments do we need to provide when creating an explicit intent?
-
-## What about when we create an implicit intent?
-
-## Why do we need to resize images? What errors could occur if we don't?
-
-## What do the terms threading and multi-threading mean in an Android application?
-
-## What thread can we alter the user interface from?
-
-## How is OAuth protocol different from a simple API request that returns a JSON response? What extra steps take place?
-
-## What is the benefit of using OAuth protocol? When might you use it?
-
-## What comes first in the Android Activity lifecycle: onCreate() or onStart()? What is each used for?
-
-## What are the necessary components of an OkHttp request to an API? What series of events occur in a successful request?
-
-## Why is a RecyclerView preferable to a ListView?
-
-## What is a fragment? What benefit does it offer?
-
-## How does Android know which fragments to insert where?
-
-## What does Parcels.wrap(); do, and when is it used?
-
-## What about Parcels.unwrap();? How do the two work in conjunction?
-
-## What is a Parcelable? What benefits does it offer? What additional setup does it require?
-
-## What is the difference between implicit and explicit intents? Provide an example of each.
-
-## What arguments do we need to provide when creating an explicit intent?
-
-## What about when we create an implicit intent?
-
-## Why do we need to resize images? What errors could occur if we don't?
-
-## What is serializing data? What does it do? Why would we serialize data?
-
-## What is the difference between an activity and a fragment? How do you determine which to use?
-
-## What is a node? What does it represent?
-
-## How do we listen to a node?
-
-## How do we stop listening to a node? Why would we want to do this?
-
-## What is a data snapshot? What process provides a new data snapshot to an application?
-
-## With your partner, walk through the basic steps that occur in order to save a new piece of data to a Firebase database in an Android application.
-
-## What is an intent filter? What does it do or prevent you from doing?
-
-## How does a SearchView work? How is it different from other views?
-
-## What other Firebase methods can you name? What do they do, and when would you use them?
-
-## What is an interface? What functionality do they offer?
-
-## How does an interface differ from a class?
-
-## How do we implement interfaces?
-
-## How are gestures enabled or disabled?
-
-## How do we use our user interface to indicate to a user what gestures are available?
-
-## How is a touchscreen gesture processed? Which portion of the application is responsible? What other components are involved?
